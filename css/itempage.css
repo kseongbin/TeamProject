@@ -17,4 +17,4 @@ table tr td{padding-left: 60px;}
 #buy:hover{background-color: white; border-color: black; color: black;}
 #basket:hover{border-color: black;}
 #login:hover {border-color: black;}
-
+footer { margin-left: 35%; margin-top: 20px;}
