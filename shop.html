@@ -6,6 +6,7 @@
     <meta name="viewport" content ="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./shopstyle.css">
     <!-- <link rel="stylesheet" href="./css.fixed.css"> -->
     <link type= "text/css" rel="preconnect" href="http://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -13,11 +14,14 @@
 
 <body data-spy="scroll" data-target="#navbarResponsive">
 
-    <div id="shop"></div>
+    <!-- Start Banner Section -->
+
+    <div id="banner">
 
         <!-- Navigation -->
          
             <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class ="navbar-brand" href="shop.html"><img src="./images/shoplogo1.png"></a>
                 <button class ="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,9 +37,64 @@
 
             </nav>
             <!-- Start Image Slider -->
-            <div id="carouselIndicator" class>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+            data-interval="4000">
+                <ol class = "carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="background-image: url(./images/banner6.jpg);">
+                    <div class="carousel-caption text-center">
+                        <h2>실버 악세사리 모음전</h2>
+                        <h3>주말 최대 ~80% 할인</h3>
+                        <a class="btn btn-outline-dark btn-lg" href="#">Shop Now</a>
+                    </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="background-image: url(./images/banner5.jpg);">
+                        <div class="carousel-caption text-center">
+                            <h2>가을 아우터 최대 40% 할인</h2>
+                            <a class="btn btn-outline-light btn-lg" href="#">Shop Now</a>
+                        </div>    
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="background-image: url(./images/banner4.jpg);">
+                    </div>
+
+                </div> <!---End Carousel Inner-->
+
+                <!-- Prev & Next Buttons -->
+                <a class ="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+
+                <a class ="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a
+           
+            </div><!-- End Image Slider  -->
+
 
             </div>
+            <!-- End Banner Section -->
+
+
+            <!-- Start Shop Section -->
+            <div id="shop">
+                <div class="col-12 narrow text-center">
+                    <h1>오늘의 Best 상품</h1>
+                </div>
+
+
+            </div>
+            <!-- End Shop Section -->
+
 
 
             <!-- Script Source Files -->
@@ -47,6 +106,6 @@
 
 
         </body>
-    </div>
+
 
 </html>
