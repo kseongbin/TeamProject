@@ -1,7 +1,4 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    }
+body{font-family: Arial, Helvetica, sans-serif; margin: 0;}
 h1 {text-align: center;}
 nav {text-align: center;}
 .container {display: flex; margin-left: 25%;}
@@ -17,4 +14,5 @@ table tr td{padding-left: 60px;}
 #buy:hover{background-color: white; border-color: black; color: black;}
 #basket:hover{border-color: black;}
 #login:hover {border-color: black;}
-footer { margin-left: 35%; margin-top: 20px;}
+footer { display: flex; margin-left: 25%; margin-top: 60px;}
+.footer{ width: 200px; height: 200px; margin-left: 40px; background-color: rgb(214, 210, 214);}
