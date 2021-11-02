@@ -14,32 +14,3 @@ table tr td{padding-left: 60px;}
 #basket:hover{border-color: black;}
 #login:hover {border-color: black;}
 footer { display: flex; margin-top: 120px;}
-/* Navbar */
-.navbar {
-    text-transform: uppercase;
-    font-weight: 700; 
-    font-size: .9rem;
-    letter-spacing: .1rem;
-    background: rgba(0,0,0,0.6)!important;
-
-}
-
-.navbar-brand img{
-    height: 3rem;
-}
-
-.navbar-nav li{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    padding-right: .7rem;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-    color: white;
-    padding-top: 0.8rem;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #4FC3F7;   
-}
