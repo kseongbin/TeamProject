@@ -1,0 +1,48 @@
+body{font-family: Arial, Helvetica, sans-serif; margin: 0;}
+li{list-style: none; margin-top: 20px; }
+nav{
+    border-top: 1px solid white;
+    border-bottom: 1px soid white;
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+nav img {margin-left: 33%;}
+
+nav li{
+    line-height: 3em;
+    border-bottom: 1px solid #223344;
+    margin-right: 30px;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+}
+
+nav li a:hover{
+    display: block;
+    text-align: center;
+    text-decoration-line: none;
+    color: rgb(156, 168, 173);
+}
+
+#itemname{margin-left: 20px;}
+table tr td {padding-left: 20px;}
+table tr th {text-align: left; padding-left: 10px;}
+#p1{margin-left: 20px;}
+#color{margin-left: 63px;}
+#p2{margin-left: 15px;}
+#size{margin-left: 52px;}
+#p3{margin-left: 20px;}
+#p4{margin-left: 20px;}
+#p5{margin-left: 20px;}
+#buy {background-color: black; color: white; width: 450px; height: 50px; margin-left: 20px;}
+#basket {background-color: white; border-color: rgb(214, 210, 214); width: 220px; height: 50px; margin-top: 10px; margin-left: 20px;}
+#login {background-color: white; border-color: rgb(214, 210, 214); width: 220px; height: 50px; margin-top: 10px; margin-left: 10px;}
+#buy:hover{background-color: white; border-color: black; color: black;}
+#basket:hover{border-color: black;}
+#login:hover {border-color: black;}
+footer{margin-top: 20px;}
