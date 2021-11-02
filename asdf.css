@@ -1,14 +1,14 @@
-button#but1{
+button#butt{
     width: 200px;
     height: 40px;
-    background-color: #FFACBC;
+    background-color: white;
     color: black;
     box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
     font-weight: bold;
     font-size: 16xp;
     border-radius: 20px;
 }
-button#but1:focus{
+button#butt:focus{
     outline: 0;
 }
 
