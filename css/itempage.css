@@ -1,6 +1,5 @@
 body{font-family: Arial, Helvetica, sans-serif; margin: 0;}
 h1 {text-align: center;}
-nav {text-align: center;}
 .container {display: flex; margin-left: 25%;}
 #fakeimg { margin-top: 20px; width: 500px; height: 600px; background-color: antiquewhite;}
 .article {margin-left: 50px;}
