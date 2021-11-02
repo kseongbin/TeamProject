@@ -13,7 +13,7 @@ table tr td{padding-left: 60px;}
 #buy:hover{background-color: white; border-color: black; color: black;}
 #basket:hover{border-color: black;}
 #login:hover {border-color: black;}
-footer { display: flex; margin-top: 60px;}
+footer { display: flex; margin-top: 120px;}
 /* Navbar */
 .navbar {
     text-transform: uppercase;
